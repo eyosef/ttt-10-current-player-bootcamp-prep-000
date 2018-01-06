@@ -21,13 +21,5 @@ def current_player(board)
     return "X"
   else 
     return "O"
-  
-  
-  if board == " "
-    return current_player("X")
-  elsif board == "X"
-    return current_player("O")
-  else board == "O"
-    return current_player("X")
   end 
 end 
