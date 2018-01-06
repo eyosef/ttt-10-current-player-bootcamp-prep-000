@@ -21,5 +21,6 @@ def current_player
     return "X"
   elsif turn_count(board) == "X"
     return "O"
-  else
+  else 
+    return nil 
 end 
