@@ -19,9 +19,7 @@ end
 def current_player(board)
   if turn_count(board) == "O"
     return current_player("O")
-  elsif turn_count(board) == "X"
+  else turn_count(board) == "X"
     return current_player("X")
-  else 
-    return nil 
   end 
 end 
