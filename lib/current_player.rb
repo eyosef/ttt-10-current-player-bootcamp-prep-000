@@ -19,7 +19,8 @@ end
 def current_player(board)
   if board == " "
     return current_player("X")
-  else board == "X"
+  elsif board == "X"
     return current_player("O")
+  else 
   end 
 end 
